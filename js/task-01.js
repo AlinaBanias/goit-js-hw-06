@@ -1,5 +1,5 @@
-const Numbersofcategories = document.querySelectorAll("li.item");
-console.log('Number of categories :', Numbersofcategories.length);
+const Numbersofcategories = document.querySelectorAll("#categories");
+console.log('Number of categories :', Numbersofcategories.children.length);
 
 const category1 = Numbersofcategories[0].firstElementChild;
 console.log('Category : ' , category1.textContent);
